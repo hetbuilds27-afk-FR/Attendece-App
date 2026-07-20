@@ -61,13 +61,6 @@ flutter run
 - Flutter SDK (`^3.12.0` or newer)
 - Android Studio / a connected Android device or emulator
 
-## 🗺️ Roadmap
-
-- [ ] iOS backup support
-- [ ] Per-subject attendance history graphs
-- [ ] Export to CSV
-- [ ] Multiple backup profiles (e.g. per semester)
-
 ## 🤝 Contributing
 
 Found a bug or have an idea? Open an issue or send a pull request — contributions are welcome.
