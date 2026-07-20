@@ -30,11 +30,6 @@ Attendance rules are simple in theory — hit 75%, or whatever your target is �
 | ♻️ **Easy restore** | Reinstalling or switching devices? Point it at your backup folder and you're back in seconds |
 | 🌗 **Light & dark themes** | Matches your system, or set it yourself |
 
-## 📱 Screenshots
-
-> _Add a few screenshots here once you've got some — drop them in a `/screenshots` folder and reference them like:_
-> `![Home screen](screenshots/home.png)`
-
 ## 🛠️ Built with
 
 - **[Flutter](https://flutter.dev)** — cross-platform UI toolkit
@@ -60,6 +55,30 @@ flutter run
 
 - Flutter SDK (`^3.12.0` or newer)
 - Android Studio / a connected Android device or emulator
+
+## 📥 Building a release APK
+
+```bash
+flutter build apk --release
+```
+
+Once the build finishes **successfully** (check the terminal for `✓ Built build\app\outputs\flutter-apk\app-release.apk`), the file will be at:
+
+```
+build\app\outputs\flutter-apk\app-release.apk
+```
+
+relative to your project root — e.g. `C:\Users\Hetkumar\Programs\attendece_tracker\build\app\outputs\flutter-apk\app-release.apk`.
+
+Install it directly on a connected device with:
+
+```bash
+flutter install
+```
+
+or copy the APK file to your phone and install it manually.
+
+> **Don't see the file?** The `build\` folder is only created after a *successful* release build — `flutter run` (debug mode) won't create it, and neither will a build that errored out partway through. Re-run `flutter build apk --release` and check the terminal output for the actual save path it prints at the end; that's always the source of truth over any path written here.
 
 ## 🤝 Contributing
 
