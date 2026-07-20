@@ -8,7 +8,6 @@ Track subjects, know exactly how many classes you can skip, and keep it all safe
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 </div>
 
@@ -83,10 +82,6 @@ or copy the APK file to your phone and install it manually.
 ## 🤝 Contributing
 
 Found a bug or have an idea? Open an issue or send a pull request — contributions are welcome.
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
