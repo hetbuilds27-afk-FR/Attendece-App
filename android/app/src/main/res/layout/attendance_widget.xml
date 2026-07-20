@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/attendance_widget_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Attendance"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_summary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="0/0 classes"
+            android:textColor="#D9FFFB"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Add subjects in the app"
+        android:textColor="#D9FFFB"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:id="@+id/subject_row_1"
+        style="@style/AttendanceWidgetRow">
+        <TextView
+            android:id="@+id/subject_name_1"
+            style="@style/AttendanceWidgetSubjectName" />
+        <TextView
+            android:id="@+id/subject_stats_1"
+            style="@style/AttendanceWidgetSubjectStats" />
+        <TextView
+            android:id="@+id/subject_present_1"
+            style="@style/AttendanceWidgetActionPresent" />
+        <TextView
+            android:id="@+id/subject_absent_1"
+            style="@style/AttendanceWidgetActionAbsent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subject_row_2"
+        style="@style/AttendanceWidgetRow">
+        <TextView
+            android:id="@+id/subject_name_2"
+            style="@style/AttendanceWidgetSubjectName" />
+        <TextView
+            android:id="@+id/subject_stats_2"
+            style="@style/AttendanceWidgetSubjectStats" />
+        <TextView
+            android:id="@+id/subject_present_2"
+            style="@style/AttendanceWidgetActionPresent" />
+        <TextView
+            android:id="@+id/subject_absent_2"
+            style="@style/AttendanceWidgetActionAbsent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subject_row_3"
+        style="@style/AttendanceWidgetRow">
+        <TextView
+            android:id="@+id/subject_name_3"
+            style="@style/AttendanceWidgetSubjectName" />
+        <TextView
+            android:id="@+id/subject_stats_3"
+            style="@style/AttendanceWidgetSubjectStats" />
+        <TextView
+            android:id="@+id/subject_present_3"
+            style="@style/AttendanceWidgetActionPresent" />
+        <TextView
+            android:id="@+id/subject_absent_3"
+            style="@style/AttendanceWidgetActionAbsent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subject_row_4"
+        style="@style/AttendanceWidgetRow">
+        <TextView
+            android:id="@+id/subject_name_4"
+            style="@style/AttendanceWidgetSubjectName" />
+        <TextView
+            android:id="@+id/subject_stats_4"
+            style="@style/AttendanceWidgetSubjectStats" />
+        <TextView
+            android:id="@+id/subject_present_4"
+            style="@style/AttendanceWidgetActionPresent" />
+        <TextView
+            android:id="@+id/subject_absent_4"
+            style="@style/AttendanceWidgetActionAbsent" />
+    </LinearLayout>
+</LinearLayout>

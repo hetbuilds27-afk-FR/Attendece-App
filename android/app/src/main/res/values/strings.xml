@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attendance_widget_description">Shows your attendance percentage and subject status.</string>
+</resources>
